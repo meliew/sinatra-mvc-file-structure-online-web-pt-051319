@@ -1,6 +1,6 @@
-class Dog 
+class Dog
 
-  attr_accessor: :name, :breed, :age 
+  attr_accessor :name, :breed, :age
   @@all = []
 
 
@@ -8,10 +8,10 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    @@all << self 
+    @@all << self
   end
 
-  def all 
+  def all
     @@all
   end
 end
